@@ -33,3 +33,10 @@ let stringToArray = (string) => {
 };
 
 console.log(stringToArray("I love arrays, they are my favorite"));
+
+//another way 
+let stringToArray1 = (string) => {
+    return string.split(" ");
+}
+
+console.log(stringToArray("I love arrays, they are my favorite"));
