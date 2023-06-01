@@ -40,3 +40,8 @@ let stringToArray1 = (string) => {
 }
 
 console.log(stringToArray("I love arrays, they are my favorite"));
+
+//another way 
+let stringToArray2 = string => string.split(" ");
+
+console.log(stringToArray("I love arrays, they are my favorite"));
