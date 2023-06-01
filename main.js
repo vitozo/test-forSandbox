@@ -45,3 +45,9 @@ console.log(stringToArray("I love arrays, they are my favorite"));
 let stringToArray2 = string => string.split(" ");
 
 console.log(stringToArray("I love arrays, they are my favorite"));
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+let hoopCount = n => n < 10 ? "Keep at it until you get it." : "Great, now move on to tricks.";
+
+console.log(hoopCount(9));
