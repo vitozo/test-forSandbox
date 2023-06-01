@@ -26,11 +26,9 @@ console.log(bmiAnother(90, 1.80));
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-let text = "I love arrays, they are my favorite"
-
 let stringToArray = (string) => {
-    let array = text.split(" ");
-    
+    let array = string.split(" ");
+
     return array;
 };
 
