@@ -23,3 +23,15 @@ let bmiAnother = (weight, height) => {
 };
 
 console.log(bmiAnother(90, 1.80));
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+let text = "I love arrays, they are my favorite"
+
+let stringToArray = (string) => {
+    let array = text.split(" ");
+    
+    return array;
+};
+
+console.log(stringToArray("I love arrays, they are my favorite"));
