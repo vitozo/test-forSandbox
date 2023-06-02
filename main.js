@@ -68,9 +68,26 @@ console.log(arrNew);
 
 const reversFunc = num => {
     // let arrSecond = Array.from({ length: num }, function (_, i) { return i + 1}).reverse();
-    let arrSecond = Array.from({ length: num }, function () { return num--});
+    // let arrSecond2 = Array.from({ length: num }, function () { return num-- });
+    // let arr3 = Array.from({ length: num }, () => num--);
+    let arr3 = Array.from({ length: num }, (_, i) => num - i);
 
-    return arrSecond;
+    // return arrSecond;
+    // return arrSecond2;
+    return arr3;
 };
 
-console.log(reversFunc(5));
+console.log(reversFunc(3));
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+const reversNewFunc = number => {
+    let newArray = [];
+
+    for (let i = number; i > 0; i--) {
+        newArray.push(i);
+    }
+    return newArray;
+};
+
+console.log(reversNewFunc(4));
