@@ -56,15 +56,15 @@ console.log(hoopCount(9));
 
 
 let n = 5;
-
 let arr = Array.from({ length: n }, (_, index) => index + 1);
-
 let reversed = arr.reverse();
-
 console.log(reversed);
+
+//
+
+let arrNew = Array.from({ length: n }, (_, index) => index + 1).reverse();
+console.log(arrNew);
 
 ////////////////////////////////////////////////////////////////////////////////////////
 
-for (let i = 0; i < 5; i++) {
-    console.log(i);
-};
+
