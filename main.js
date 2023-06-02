@@ -54,7 +54,6 @@ console.log(hoopCount(9));
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
-
 let n = 5;
 let arr = Array.from({ length: n }, (_, index) => index + 1);
 let reversed = arr.reverse();
@@ -67,4 +66,11 @@ console.log(arrNew);
 
 ////////////////////////////////////////////////////////////////////////////////////////
 
+const reversFunc = num => {
+    // let arrSecond = Array.from({ length: num }, function (_, i) { return i + 1}).reverse();
+    let arrSecond = Array.from({ length: num }, function () { return num--});
 
+    return arrSecond;
+};
+
+console.log(reversFunc(5));
