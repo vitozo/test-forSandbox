@@ -16,6 +16,17 @@ console.log(findFirstNonConsecutive(arr));
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
-const greet = (name) => name === "Johnny" ? "Hello, my love!" : "Hello," + name + "!";
+// const greet = (name) => name === "Johnny" ? "Hello, my love!" : "Hello," + name + "!";
+
+const greet = (name) => {
+    if (name === "Johnny") {
+        return (
+            "Hello, my love!"
+        );
+    }
+    return(
+        "Hello," + ' ' + name + "!"
+    );
+};
 
 console.log(greet("Din"));
