@@ -22,7 +22,6 @@ const findFirstNonConsecutive = (arr) => {
     for (let i = 1; i < arr.length; i++) {
         const el = arr[i];
         const previous = arr[i - 1];
-        // const next = arr[i + 1];
         if (el - previous !== 1) {
             return el;
         };
