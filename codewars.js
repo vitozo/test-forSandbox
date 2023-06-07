@@ -31,3 +31,9 @@ const findFirstNonConsecutive = (arr) => {
 
 console.log(findFirstNonConsecutive(arr));
 
+//////////////////////////////////////
+
+const justCheck = {
+    checkOne: "Just Check GitHub",
+    checkTwo: "After this action, i go to browser and reload it"
+};
